@@ -9,18 +9,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>To do</h1>
+    <h1>To Do</h1>
     <div class="elementos" id="lista_de_elementos">
     </div>
 
     <div id="newToDO">
         <input type="text" id="elementContent" placeholder="Qué queres hacer?">
-        <button id="agregarElemento" type="submit">Agregar elemento</button>
+        <button id="agregarElemento" class="btn" type="submit">Agregar elemento</button>
     </div>
 
+    <div class="divider"></div>
+
+    <div id="showToDo">
+        <button id="mostrarTarea" class="btn" type="submit">Ver tarea terminada más rapida</button>
+    </div>
+    <div id="showTarea"></div>
+    <!--
     <div class="deleteToDo">
         <button id="deleteEvery">Eliminar ToDo</button>
     </div>
+    -->
     <script src="script.js"></script>
 </body>
 </html>
